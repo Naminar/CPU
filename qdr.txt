@@ -1,0 +1,83 @@
+
+PUSH 2
+PUSH 0
+PUSH 0
+PUSH -13
+PUSH 2
+
+POP ax
+POP bx
+POP cx
+POP dx
+POP ex
+
+CALL qdr
+HLT
+
+qdr:
+PUSH bx
+PUSH dx
+SUB
+
+POP bx
+PUSH ax
+PUSH ex
+MUL
+
+PUSH bx
+PUSH bx
+MUL
+
+PUSH ex
+PUSH ex
+PUSH ax
+PUSH cx
+MUL
+MUL
+MUL
+
+PUSH 0
+SUB
+ADD
+
+PUSH 0
+POP [1]
+POP [2]
+
+PUSH [2]
+PUSH [2]
+PUSH [1]
+
+JA go
+
+SQRT
+
+POP dx
+PUSH dx
+PUSH bx
+ADD
+
+POP cx
+POP ex
+
+PUSH ex
+PUSH cx
+DIV
+
+OUT
+
+PUSH ex
+PUSH dx 
+PUSH 2
+MUL
+
+PUSH 0
+SUB
+PUSH cx
+ADD
+DIV
+
+OUT
+
+go:
+RET

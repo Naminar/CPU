@@ -1,0 +1,34 @@
+
+PUSH 8
+PUSH 1
+PUSH 0
+PUSH 1
+PUSH 0
+
+POP ax
+POP bx
+POP cx
+POP dx
+POP ex
+CALL FED
+JO:
+HLT
+FED:
+PUSH bx
+PUSH bx
+PUSH bx
+PUSH ax
+ADD
+POP bx
+POP ax
+PUSH bx
+OUT
+PUSH cx
+PUSH dx
+ADD
+POP cx
+PUSH cx
+PUSH ex
+JBL JO
+CALL FED
+RET

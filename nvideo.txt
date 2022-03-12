@@ -1,0 +1,18 @@
+PUSH 1
+PUSH 3
+PUSH 10
+
+CALL fun
+HLT
+
+fun:
+POP ax
+PUSH ax
+PUSH ax
+POP [ax]
+
+ADD
+ADD
+OUT
+
+RET
