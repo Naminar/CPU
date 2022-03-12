@@ -1,6 +1,6 @@
 # CPU
 My own small processor. It even has video memory and graphics!!!
+### fib = fibonacci numbers
 ### input = with video
-### qdr = solves quadratic equation
 ### nvideo = withot any video features
-### fib = fibonacci numbers 
+### qdr = solves quadratic equation
