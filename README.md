@@ -15,7 +15,7 @@
  
  <p align="center">
 	<img src="README/jump.png" 
-		width="75%" 
+		width="55%" 
 	/>
 <p>
 
