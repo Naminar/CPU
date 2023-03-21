@@ -4,10 +4,10 @@
 - [Some aspects of implementation](#some-aspects-of-implementation)
 - [Commands](#commands)
 - [ASM code](#asm-code)
-	- [fib - prints fibonacci numbers](#fib-prints-fibonacci-numbers)
-	- [input - with video](#input-with-video)
- 	- [nvideo - withot any video features](#nvideo-withot-any-video-features)
-	- [qdr - solves quadratic equation](#qdr-solves-quadratic-equation)
+	- [fib - prints fibonacci numbers](#fib-----prints-fibonacci-numbers)
+	- [input - with video](#input-----with-video)
+ 	- [nvideo - withot any video features](#nvideo-----withot-any-video-features)
+	- [qdr - solves quadratic equation](#qdr-----solves-quadratic-equation)
 ## Some aspects of implementation
 * If you use the jump label (where to go) before specifying this jump location, then DOUBLE ASSEMBLY will be done. Because during the assembly process, a list of all the labels in the code is compiled.\
 \
