@@ -13,6 +13,12 @@
 \
  That is, when reassembling, the missing arguments of the transition commands will be substituted.
  
+ <p align="center">
+	<img src="README/jump.png" 
+		width="75%" 
+	/>
+<p>
+
 * Use the label where to jump like: \
 ``NAME_OF_LABEL :``
 
