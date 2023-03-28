@@ -68,6 +68,11 @@
 - - - 
 ### ``RET`` - the end of asm program (there may be several)
 - - -
+### ``HLT`` - the logical end of the program 
+
+* the processor stops executing
+* you are required to use at the end of the program
+- - -
 >[Back to Content](#content)
 ## ASM code
 ### fib    -  prints fibonacci numbers
