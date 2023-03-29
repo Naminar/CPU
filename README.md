@@ -1,4 +1,4 @@
-# CPU 
+# CPU  
 ## My own small processor. It even has video memory, stack & graphics!!!
 ## Content:
 - [Some aspects of implementation](#some-aspects-of-implementation)
