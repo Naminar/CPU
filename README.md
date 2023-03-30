@@ -3,6 +3,7 @@
 ## Content:
 - [Some aspects of implementation](#some-aspects-of-implementation)
 - [Commands](#commands)
+- [Executable binary file](#executable-binary-file)
 - [ASM code](#asm-code)
 	- [fib - prints fibonacci numbers](#fib-------prints-fibonacci-numbers)
 	- [input - with video](#input-----with-video)
@@ -74,6 +75,18 @@
 * you are required to use at the end of the program
 - - -
 >[Back to Content](#content)
+
+## Executable binary file
+#### One of the examples:
+```
+01020000000100000000010000000001F3FFFFFF0102000000960000000096010000009602000000
+960300000096040000000F3800000005840100000084030000000496010000008400000000840400
+00000384010000008401000000038404000000840400000084000000008402000000030303010000
+0000040601000000009501000000950200000083020000008302000000830100000009E400000013
+96030000008403000000840100000006960200000096040000008404000000840200000014028404
+0000008403000000010200000003010000000004840200000006140210
+```
+
 ## ASM code
 ### fib    -  prints fibonacci numbers
 ```
@@ -405,6 +418,7 @@ go:
 RET
 ```
 >[Back to Content](#content)
+
 ## ©Copyright
 <p align="center">
 	<img src="README/LogoMIPT/mipt1.png" 
